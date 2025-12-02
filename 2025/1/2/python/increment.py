@@ -1,5 +1,9 @@
 import sys
 
+# Really wanted to solve this in linear time the first try
+# but after a few misfires, I decided to implement it the O(n**2) way
+# so I could compare against my other implementations.
+
 
 class Dial:
     def __init__(self):
